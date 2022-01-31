@@ -55,7 +55,7 @@ export class ToyRobot {
      * @param x - string representing integer of X Position of the robot to be placed
      * @param y - string representing integer of Y Position of the robot to be placed
      * @param f - string representing a cardinal direction for the robot to be facing
-     * @returns string | void, string if error, void otherwise
+     * @returns Response object with success boolean and optional message where relevant
      */
     place = (x: string, y: string, f: string) => {
 
@@ -92,7 +92,7 @@ export class ToyRobot {
 
     /**
     * move the robot one step in the direction it's facing
-    * @returns string | void, string if error, void otherwise
+    * @returns Response object with success boolean and optional message where relevant
     */
     move = () => {
         
@@ -117,7 +117,7 @@ export class ToyRobot {
     
     /**
     * turn the robot to the left, as defined in the cardinalDirections object
-    * @returns string | void, string if error, void otherwise
+    * @returns Response object with success boolean and optional message where relevant
     */
     left = () => {
 
@@ -135,7 +135,7 @@ export class ToyRobot {
 
     /**
     * turn the robot to the right, as defined in the cardinalDirections object
-    * @returns string | void, string if error, void otherwise
+    * @returns Response object with success boolean and optional message where relevant
     */
     right = () => {
 
