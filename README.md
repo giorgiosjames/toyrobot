@@ -1,14 +1,14 @@
 # Toy Robot
 
-A Typescript Node solution to the (PROBLEM.md)[./PROBLEM.md].
+A Typescript Node solution to the [PROBLEM.md](./PROBLEM.md).
 
 ## Built With
 
-* (NodeJS)[https://nodejs.org/] for runtime environemnt
-* (Typescript)[https://www.typescriptlang.org/] for language
-* (Jest)[https://jestjs.io/] for testing
-* (ESLint)[https://eslint.org/] for linting
-* (Husky)[https://github.com/typicode/husky] for git-hook testing
+* [NodeJS](https://nodejs.org/) for runtime environemnt
+* [Typescript](https://www.typescriptlang.org/) for language
+* [Jest](https://jestjs.io/) for testing
+* [ESLint](https://eslint.org/) for linting
+* [Husky](https://github.com/typicode/husky) for git-hook testing
 
 ## Getting Started
 
@@ -16,7 +16,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-You will need a copy of (NodeJS)[https://nodejs.org/] installed locally.
+You will need a copy of [NodeJS](https://nodejs.org/) installed locally.
 
 ### Installation
 
