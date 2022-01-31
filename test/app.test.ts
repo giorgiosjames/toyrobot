@@ -8,9 +8,6 @@ beforeEach(() => {
     toyRobot = new ToyRobot();
 });
 
-// using toBeTruthy to indicate error states because we will be returning error messages on fail, void (undefined) otherwise
-// this doesn't hold true for the REPORT command, which always returns a string, so the specific error/success messages will be checked
-
 describe('PLACE needs to be the first command used', () => {
 
     test('Using MOVE before PLACE should fail', () => {
